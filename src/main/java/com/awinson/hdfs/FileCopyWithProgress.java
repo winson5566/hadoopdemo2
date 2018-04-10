@@ -18,7 +18,7 @@ public class FileCopyWithProgress {
     FileSystem fs = FileSystem.get(conf);
 
     //InputStream
-    String localSrc = "/home/winson/Downloads/Hadoop-WordCount/input/Word_Count_input.txt";
+    String localSrc = "/home/winson/Downloads/Hadoop-WordCountJob/input/Word_Count_input.txt";
     InputStream in = new BufferedInputStream(new FileInputStream(localSrc));
 
     //OutputStream
